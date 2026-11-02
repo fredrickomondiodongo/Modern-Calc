@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" 
+ content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="changeThemes.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class='border'>
+    <div id="subContainer">
+    
+    <div id="container">
+      <h3 class="subHead">MODERN CALCULATOR</h3>
+  <div id="resultContainer">
+    
+    <div id='history'></div>
+    
+    <output id="outputDisplay" > 
+    </output>
+    <div id='answer'></div>
+    
+  </div>
+  
+    <div id="buttons">
+      
+      <div class="cl" id="column0">
+        <button class="btn hide">v</button>
+        <button class="btn">0</button>
+        <button class="btn">.</button>
+        <button id='isEqual' class="btn">=</button>
+      </div> 
+      
+      <div class="cl" id='column1'>
+        <button class="btn" id="3">3</button>
+        <button class="btn" id="2">2</button>
+        <button class="btn" id="1">1</button> 
+        <button class="btn">+</button>
+      </div>
+
+      <div class="cl" id='column2'>
+         <button class="btn" id="6">6</button>
+         <button class="btn"  id="5">5</button>
+         <button class="btn" id="4">4</button>  
+        <button class="btn">-</button>
+      </div>
+
+      <div class="cl" id='column3'>
+        <button class="btn" id="9">9</button>
+
+        <button class="btn"  id="8">8</button> 
+        
+        <button class="btn"  id="7">7</button>
+        
+        <button id="multiply" class="btn">x</button>
+      </div>
+      
+      <div class="cl" id="column4">
+        <button id="clear" class="btn">C</button>
+        <button id="deleting" class="btn">Del</button>
+        <button class="btn" id="percent">%</button>
+        <button class="btn" id="divide">÷</button>
+      </div>  
+      
+</div>    
+</div>
+</div>
+  </div>
+
+  <div id="changeThemes">
+    <div id="h"><h1>THEMES</h1>  </div>
+    <button id="greenbtn">Green</button>
+    <button id="redbtn">Red</button>
+    <button id="bluebtn">Blue</button>
+    <button id="pinkbtn">Pink</button>
+  </div>
+<script src="script.js"></script>
+<script src="changeThemes.js"></script>
+</body>
+</html>

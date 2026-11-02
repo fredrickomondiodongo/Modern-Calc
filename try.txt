@@ -1,0 +1,31 @@
+//,deletes last element in a string
+output.textContent = output.textContent.slice(0, -1);
+
+
+function calculateValues(){
+  isEqual.addEventListener('click',function(){
+    let hasError=false;
+    
+  try {
+  //Number removes unnecesary decimals lets say if a number is divisible.
+  answer.textContent =Number(eval(outputDisplay.value).toFixed(2));
+ }
+ catch(error) {
+  answer.textContent  = 'Error';
+   answer.textContent +='';
+  hasError=true;
+ }
+ if(hasError===true){
+   answer.textContent='';
+   hasError=false
+ }  
+    
+  })
+  percent.addEventListener(click,function(){
+    let ans=Number(answer.textContent)/100; 
+    answer.textContent=ans;
+  })
+ 
+};
+
+
